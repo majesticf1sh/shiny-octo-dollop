@@ -1,6 +1,5 @@
 TaskQueue.getTravelJob = (e) => {
   try {
-  if(!new JobPrototype().p) return;
-  return { jobId: e, inventory: true };
+  return { job_id: e, Inventory: true };
   } catch (e) {};
 };
